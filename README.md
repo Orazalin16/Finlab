@@ -1,6 +1,6 @@
 # quant-finlab — Financial Data Analysis & Backtesting
 
-A compact, recruiter-friendly quant project showcasing **data ingestion**, **time‑series modeling** (ARIMA, GARCH, LSTM), and **strategy backtesting** (momentum & mean‑reversion) on real market data.
+A compact project showcasing **data ingestion**, **time‑series modeling** (ARIMA, GARCH, LSTM), and **strategy backtesting** (momentum & mean‑reversion) on real market data.
 
 > Built with Python: `pandas`, `numpy`, `statsmodels`, `arch`, `torch`, `matplotlib`, `plotly`, and `yfinance`.
 
@@ -19,9 +19,6 @@ A compact, recruiter-friendly quant project showcasing **data ingestion**, **tim
 - **Backtesting**: Vectorized engine with fees, slippage, and rich risk metrics.
 - **Plots**: Equity curve, drawdowns, and price + signals.
 - **Examples**: One‑file quickstart that runs end‑to‑end.
-
-This repo is intentionally **clean, small, and easy to read** for internship hiring managers.
-It demonstrates practical quant skills without relying on heavyweight frameworks.
 
 ---
 
@@ -104,29 +101,11 @@ quant-finlab/
 
 ---
 
-## Why this is resume‑ready
-
-- **Breadth** across *data, modeling, strategies, backtesting, and visualization*.
-- **Crisp organization** and **type‑hints** to demonstrate engineering maturity.
-- **Documented code** with readable defaults and sensible parameters.
-- **Extensible**: Add features/strategies quickly, or plug into your own data.
-
----
 
 ## Notes & Disclaimers
 
-- This is an **educational** project, *not* investment advice. Markets involve risk.
 - LSTM and ARIMA examples are intentionally light; hyperparameters are modest so the example runs quickly. Improve them for deeper analyses.
 - `yfinance` sources Yahoo Finance data; availability/accuracy may vary.
 
 ---
 
-## License
-
-MIT — see [LICENSE](LICENSE).
-
----
-
-## Citation
-
-If this repo helps you, a star ⭐ and mention in your resume are appreciated.
